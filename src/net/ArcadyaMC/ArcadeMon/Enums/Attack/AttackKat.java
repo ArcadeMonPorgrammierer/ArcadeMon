@@ -6,6 +6,7 @@ public enum AttackKat {
 	putzigkeit,
 	klugheit,
 	coolness,
+	schnarch,
 	schönheit;
 	
 }

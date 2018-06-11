@@ -17,5 +17,7 @@ public class OnJoin implements Listener{
 		//Trainer in der Main registrieren
 		
 		//Event registrieren
+		
+		//Inventar setzen
 	}
 }
