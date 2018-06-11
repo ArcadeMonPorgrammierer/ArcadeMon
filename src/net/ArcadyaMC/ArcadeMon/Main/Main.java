@@ -4,6 +4,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin{
 	
+	private Main main;
 
 	@Override
 	public void onEnable() {
@@ -17,7 +18,11 @@ public class Main extends JavaPlugin{
 	
 	@Override
 	public void onLoad() {
-		
+		this.main = main;
+	}
+	
+	public Main getInstance() {
+		return this.main;
 	}
 
 }

@@ -198,7 +198,7 @@ public enum PokeEnum {
 	
 		return ag;
 	}
-	public int getinitr() {
+	public int getInit() {
 		int ag = init;
 		int randomAg = new Random().nextInt(10);
 
@@ -242,7 +242,7 @@ public enum PokeEnum {
 		return mSub;
 	}
 	
-	public Material getMatterial() {
+	public Material getMaterial() {
 		return m;
 	}
 	public PokeType getTyp1() {
