@@ -165,6 +165,4 @@ public class Pokemon {
 	public void setMaterial(Material material) {
 		this.material = material;
 	}
-	
-	
 }
