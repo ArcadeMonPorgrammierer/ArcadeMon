@@ -18,5 +18,4 @@ public class OnJoin implements Listener{
 		
 		//Event registrieren
 	}
-
 }

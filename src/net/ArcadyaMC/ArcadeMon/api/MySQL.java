@@ -1,4 +1,4 @@
-package net.ArcadyaMC.ArcadeMon.API;
+package net.ArcadyaMC.ArcadeMon.api;
 
 import java.sql.DriverManager;
 import java.sql.SQLException;

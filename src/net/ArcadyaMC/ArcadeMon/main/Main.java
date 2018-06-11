@@ -1,4 +1,4 @@
-package net.ArcadyaMC.ArcadeMon.Main;
+package net.ArcadyaMC.ArcadeMon.main;
 
 import java.util.ArrayList;
 import java.util.UUID;
@@ -7,8 +7,8 @@ import java.util.logging.Level;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import net.ArcadyaMC.ArcadeMon.API.ConfigFile;
-import net.ArcadyaMC.ArcadeMon.API.Trainer;
+import net.ArcadyaMC.ArcadeMon.api.ConfigFile;
+import net.ArcadyaMC.ArcadeMon.api.Trainer;
 
 public class Main extends JavaPlugin{
 	
