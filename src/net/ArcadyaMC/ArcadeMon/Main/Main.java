@@ -7,12 +7,15 @@ import java.util.logging.Level;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import net.ArcadyaMC.ArcadeMon.API.ConfigFile;
 import net.ArcadyaMC.ArcadeMon.API.Trainer;
 
 public class Main extends JavaPlugin{
 	
 	private static Main main;
 	private static ArrayList<Trainer> trainers;
+	
+	private static ConfigFile mysql;
 	
 	@Override
 	public void onEnable() {
@@ -33,7 +36,12 @@ public class Main extends JavaPlugin{
 	}
 	
 	private void createConfiguration() {
-		
+		mysql = new ConfigFile("mysql.yml", "plugins/");
+		mysql.set("enable", false);
+		mysql.set("hostname", "localhost");
+		mysql.set("username", "root");
+		mysql.set("password", "wtf");
+		mysql.set("port", 3306);
 	}
 	
 	public static Main getInstance() {
@@ -51,5 +59,9 @@ public class Main extends JavaPlugin{
 			}
 		}
 		return null;
+	}
+	
+	public static ConfigFile getMySQLConfiguration() {
+		return mysql;
 	}
 }
