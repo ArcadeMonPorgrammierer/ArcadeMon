@@ -22,4 +22,28 @@ public class Trainer {
 		poke = null;
 		System.gc();
 	}
+
+	public Player getP() {
+		return p;
+	}
+
+	public void setP(Player p) {
+		this.p = p;
+	}
+
+	public ArrayList<Pokemon> getTeam() {
+		return team;
+	}
+
+	public void setTeam(ArrayList<Pokemon> team) {
+		this.team = team;
+	}
+
+	public double getRichmoneycash() {
+		return richmoneycash;
+	}
+
+	public void setRichmoneycash(double richmoneycash) {
+		this.richmoneycash = richmoneycash;
+	}
 }

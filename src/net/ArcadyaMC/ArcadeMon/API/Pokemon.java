@@ -61,4 +61,110 @@ public class Pokemon {
 		this.type.add(poke.getTyp2());
 		this.exp = 0;
 	}
+
+	public int getInit() {
+		return init;
+	}
+
+	public void setInit(int init) {
+		this.init = init;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getVer() {
+		return ver;
+	}
+
+	public void setVer(int ver) {
+		this.ver = ver;
+	}
+
+	public int getAngr() {
+		return angr;
+	}
+
+	public void setAngr(int angr) {
+		this.angr = angr;
+	}
+
+	public int getSpezver() {
+		return spezver;
+	}
+
+	public void setSpezver(int spezver) {
+		this.spezver = spezver;
+	}
+
+	public int getSpetzangr() {
+		return spetzangr;
+	}
+
+	public void setSpetzangr(int spetzangr) {
+		this.spetzangr = spetzangr;
+	}
+
+	public int getKp() {
+		return kp;
+	}
+
+	public void setKp(int kp) {
+		this.kp = kp;
+	}
+
+	public int getMaxkp() {
+		return maxkp;
+	}
+
+	public void setMaxkp(int maxkp) {
+		this.maxkp = maxkp;
+	}
+
+	public int getLevel() {
+		return level;
+	}
+
+	public void setLevel(int level) {
+		this.level = level;
+	}
+
+	public double getExp() {
+		return exp;
+	}
+
+	public void setExp(double exp) {
+		this.exp = exp;
+	}
+
+	public int getID() {
+		return ID;
+	}
+
+	public void setID(int iD) {
+		ID = iD;
+	}
+
+	public ArrayList<PokeType> getType() {
+		return type;
+	}
+
+	public void setType(ArrayList<PokeType> type) {
+		this.type = type;
+	}
+
+	public Material getMaterial() {
+		return material;
+	}
+
+	public void setMaterial(Material material) {
+		this.material = material;
+	}
+	
+	
 }
